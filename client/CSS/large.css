@@ -1,5 +1,5 @@
 /* Large devices (large desktops, 1200px and up) */
-@media (	min-width: 1200px) {
+@media (min-width: 1200px) {
 
 	h1 h2 h3 h4 h5 h6{
 	font-family: 'Roboto Slab', serif;
@@ -110,6 +110,7 @@ margin-right: 20px;
 	margin-top: 0px;
    font-weight: bold;
    margin-left: 15px;
+   margin-left: 50px;
 }
 
 .images h1{
@@ -119,6 +120,7 @@ margin-right: 20px;
 	margin-top: 0px;
    font-weight: bold;
    border-bottom: 2px solid #fff;
+   margin-left: 50px;
 }
 .imagee h1{
 	font-size: 33px;
@@ -127,6 +129,7 @@ margin-right: 20px;
 	margin-top: 0px;
    font-weight: bold;
    border-bottom: 2px solid #fff;
+   margin-left: 50px;
 }
 
 .image1	 h1{
@@ -136,6 +139,7 @@ margin-right: 20px;
 	margin-top: 0px;
    font-weight: bold;
    border-bottom: 2px solid #fff;
+   margin-left: 50px;
 }
 #tit{
 	margin-top: 18.5px;
@@ -291,11 +295,13 @@ background-color: #008cba;
 	font-size: 15px;
 	color: white;
 	text-align: justify;
+	margin-left: 50px;
 }
 .tite{
 	font-size: 15px;
 	color: white;
 	text-align: justify;
+	margin-left: 50px;
 }
 
 .titet{
@@ -303,6 +309,7 @@ background-color: #008cba;
 	color: black;
 	text-align: justify;
 	margin-left: 15px;
+	margin-left: 50px;
 }
 #presen{
  	padding-bottom: 2em;
@@ -468,7 +475,7 @@ background-color: #008cba;
 	color: black;
 }
 #modi{
-	height: 19.5em;
+	height: 31em;
 }
 /* partie partners and soponsors*/
 
