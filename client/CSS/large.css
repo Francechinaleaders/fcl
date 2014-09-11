@@ -1,5 +1,6 @@
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media screen and (min-width: 100px){
+
 
 	h1 h2 h3 h4 h5 h6{
 	font-family: 'Roboto Slab', serif;
@@ -401,6 +402,7 @@ background-color: #008cba;
 	font-size: 12px;
 	width: 100em;
 }
+
 .titre3{
 	margin-left: 21.3%;
 	padding: 15px;
@@ -460,9 +462,11 @@ background-color: #008cba;
 	height: 50em;
 }
 /* partie participants*/
+ 
 .partici{
-	padding-left: 15%;
+	margin-left: 15%;
 }
+
 .partici img{
 	margin-top: 3%;
 	margin-bottom: 3%;
