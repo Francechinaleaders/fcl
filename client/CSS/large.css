@@ -1,14 +1,14 @@
 /* Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 100px){
+@media screen and (min-width: 800px){
 
 
 	h1 h2 h3 h4 h5 h6{
 	font-family: 'Roboto Slab', serif;
 }
 
-.navb-nav>li> a>img{
+/*.navbar-nav>li> a>img{
 	margin-left: 5em;
-}
+}*/
 
 
 .navbar{
@@ -17,17 +17,17 @@
 	margin-right: 0%;
 	padding-right: 0px;
 	padding-left: 2%;
-	color: #31A5E7;
+	background-color: #31A5E7;
 	height: 60px;
 	padding-top: 8px;
 }
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+/*.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
 	background-color: black;
-}
-.navbar-inverse .navbar-nav > li > a {
+}*/
+/*.navbar-inverse .navbar-nav > li > a {
 color: #ffffff;
 margin-right: 20px;
-}
+}*/
 #in{
 	width: 20px;
 	height: 20px;
@@ -47,7 +47,7 @@ margin-right: 20px;
 	padding-left: 22%;
 	padding-right: 15%;
 	margin-top: 1.5%;
-	margin-bottom: 1.5x%;
+	margin-bottom: 1.5%;
 }
 #heigh{
 	padding-top: 2em;
@@ -459,7 +459,7 @@ background-color: #008cba;
 	font-size: 14px;
 }
 #imm{
-	height: 50em;
+	height: 50em !important;
 }
 /* partie participants*/
  
@@ -633,3 +633,4 @@ height: 10em;
 	margin-left: 17px;
 }
 }
+

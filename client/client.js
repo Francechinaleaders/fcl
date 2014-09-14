@@ -7,7 +7,7 @@ Template.HOME.rendered = function(){
 		items: {
 			size: null,
 			visible: {
-				min: 2,
+				min: 1,
 				max: 5,
 			}
 		}
