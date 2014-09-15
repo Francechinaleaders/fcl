@@ -1,5 +1,5 @@
-/* Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 800px){
+
+@media screen and (max-width: 768px){
 
 
 	h1 h2 h3 h4 h5 h6{
@@ -7,20 +7,24 @@
 }
 
 
+
 .navbar{
 	font-size: 16px;
 	font-weight: bold;
 	margin-right: 0%;
 	padding-right: 0px;
-	padding-left: 13%;
+	padding-left: 2%;
 	background-color: #31A5E7;
 	height: 60px;
 	padding-top: 8px;
 }
-.navbar-brand{
-	display: none;
-}
 
+
+
+.navbar-inverse .navbar-nav > li > a {
+color: #ffffff;
+background-color: black;
+}
 #in{
 	width: 20px;
 	height: 20px;
@@ -37,9 +41,10 @@
 }
 
 .logo{
-	padding-left: 22%;
-	padding-right: 15%;
+	padding-left: 2%;
+	padding-right: 1%;
 	margin-top: 1.5%;
+	padding-top: 7%;
 	margin-bottom: 1.5%;
 }
 #heigh{
@@ -47,7 +52,7 @@
 }
 
 .image{
-	padding-left: 16%;
+	padding-left: 8%;
 	padding-top: 2%;
 	padding-right: 15px;
 	margin-top: 1%;
@@ -58,7 +63,7 @@
 	
 }
 .images{
-	padding-left: 16%;
+	padding-left: 3%;
 	padding-top: 2%;
 	padding-right: 15px;
 	margin-top: 1%;
@@ -70,7 +75,7 @@
 }
 
 .imagee{
-	padding-left: 16%;
+	padding-left: 15px;
 	padding-top: 2%;
 	padding-right: 15px;
 	margin-top: 1%;
@@ -82,7 +87,7 @@
 }
 
 .image1{
-	padding-left: 16%;
+	padding-left: 15px;
 	padding-top: 2%;
 	padding-right: 15px;
 	margin-top: 1%;
@@ -95,16 +100,14 @@
 
 #the{
 	font-style: italic;
-	font-size: 20px;
+	font-size: 13px;
 }
 .image h1{
-	font-size: 33px;
 	margin-bottom: 5px;
-	padding-bottom: 5px;
 	margin-top: 0px;
    font-weight: bold;
    margin-left: 15px;
-   margin-left: 50px;
+   margin-left: 8%;
 }
 
 .images h1{
@@ -114,7 +117,7 @@
 	margin-top: 0px;
    font-weight: bold;
    border-bottom: 2px solid #fff;
-   margin-left: 50px;
+   margin-left: 15px;
 }
 .imagee h1{
 	font-size: 33px;
@@ -123,7 +126,7 @@
 	margin-top: 0px;
    font-weight: bold;
    border-bottom: 2px solid #fff;
-   margin-left: 50px;
+   margin-left: 15px;
 }
 
 .image1	 h1{
@@ -133,13 +136,13 @@
 	margin-top: 0px;
    font-weight: bold;
    border-bottom: 2px solid #fff;
-   margin-left: 50px;
+   margin-left: 15px;
 }
 #tit{
 	margin-top: 18.5px;
 	margin-bottom: 15px;
 	font-weight: normal;
-	font-size: 39px; 
+	font-size: 20px; 
 }
 
 #vignt img {
@@ -158,8 +161,8 @@ height: 1px;
 }
 #myCarousel img{
 	display: inline;
-	width: 103px;
-	height: 113px;
+	width: 80px;
+	height: 93px;
 }
 .paragraphe{
 		font-size: 12.45px;
@@ -189,9 +192,9 @@ height: 21px;
 }
 #wrapper {
 	
-	padding: 0 200px 0 255px;
-	margin-top: 30px;
-	margin-bottom: 7px;
+	padding: 0px 0px 0px 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 #carousel img{
 	height: 75px;
@@ -218,7 +221,7 @@ background-color: #008cba;
     border-color: #006687;	color: white;
 }
 .list-unstyled{
-  margin-left: 40%;
+  margin-left: 9%;
 }
 .foot a {
 	color: white;
@@ -261,11 +264,12 @@ background-color: #008cba;
 .presentation{
 
 	font-size: 16px;
-	padding-left: 14.5%;
+	padding-left: 15px;
 	text-align: justify;
+	margin-top: 20px;
 }
 #presephot{
-	height: 25em;
+	display: none;
 	padding-top: 6px;
 }
 #presepho{
@@ -289,34 +293,34 @@ background-color: #008cba;
 	font-size: 15px;
 	color: white;
 	text-align: justify;
-	margin-left: 50px;
+	margin-left: 15px !important;
 }
 .tite{
 	font-size: 15px;
 	color: white;
 	text-align: justify;
-	margin-left: 50px;
+	margin-left: 15px;
 }
 
 .titet{
 	font-size: 15px;
 	color: black;
 	text-align: justify;
-	margin-left: 15px;
-	margin-left: 50px;
+	margin-left: 25px;
 }
-#presen{
+/*#presen{
  	padding-bottom: 2em;
- 	padding-top: 45px;
+ 	padding-top: 0px;
 
-}
+}*/
 .presentation h2{
 	margin-top: 1em;
 	font-weight: bold;
 	font-size: 24px
 }
 #photopre{
-	width: 50em;
+	display: none;
+	width: 16em;
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -387,10 +391,13 @@ background-color: #008cba;
 }
 .program{
 
-	padding-left: 11.4%;
+	padding-left: 15px;
 	text-align: justify;
-	margin-top: 5em;
+	margin-top: 15px;
+	padding-right: 19px;
+	padding-bottom: 40px;
 	font-size: 12px;
+	width: 100em;
 }
 
 .titre3{
@@ -448,9 +455,9 @@ background-color: #008cba;
 .progra p{
 	font-size: 14px;
 }
-#imm{
-	margin-bottom: 3em;
-}
+/*#imm{
+	height: 15em;
+}*/
 /* partie participants*/
  
 .partici{
@@ -469,7 +476,7 @@ background-color: #008cba;
 	color: black;
 }
 #modi{
-	height: 31em;
+	/*height: 15em;*/
 }
 /* partie partners and soponsors*/
 
@@ -494,6 +501,7 @@ background-color: #008cba;
 .partners h2{
   font-weight: bold;
   color: #444444;
+  /*font-size: 25px;*/
 }
 .partner{
 	margin-bottom: 3em;	
@@ -510,35 +518,42 @@ background-color: #008cba;
 #sem1{
 	margin-right: 15px;
 	margin-top: 0px;
+	margin-bottom: 2em;
 }
 #sem41 {
 margin-right: 15px;
 margin-top: 0px;
 height: 10em;
+margin-bottom: 2em;
 }
 #sem21{
 	margin-top: 0px;
 	height: 60px;
+	margin-bottom: 2em;
 }
 #sem31{
 	margin-top: 0px;
 	height: 50px;
+	margin-bottom: 2em;
 }
 #sem15{
 	margin-top: 0px;
 	height: 7em;
-	
+	margin-bottom: 2em;
 }
 #sem155{
 	height: 60px;
+	margin-bottom: 2em;
 }
 #sem11{
 	height: 5em;
 	margin-right: 15px;
+	margin-bottom: 2em;
 }
 #sem2{
 	margin-right: 15px;
 	height: 5em;
+	margin-bottom: 2em;
 }
 #texta{
 	text-align: center;
@@ -622,5 +637,4 @@ height: 10em;
 #information{
 	margin-left: 17px;
 }
-}
-
+}	

@@ -14,3 +14,14 @@ Template.HOME.rendered = function(){
 	});
 }); 
 }; 
+
+
+
+
+$(document).on('click.nav', '.navbar-collapse', function(e){
+
+    if ($('.navbar-header button').is(':visible')) {
+         $(this).collapse('hide');
+    }
+
+	});
