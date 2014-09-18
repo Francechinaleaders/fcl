@@ -47,6 +47,12 @@ background-color: black;
 	padding-top: 7%;
 	margin-bottom: 1.5%;
 }
+.logo img{
+	margin-left: 6em;
+}
+.trait{
+	display: none;
+}
 #heigh{
 	padding-top: 2em;
 }
