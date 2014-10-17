@@ -315,11 +315,7 @@ background-color: #008cba;
 	text-align: justify;
 	margin-left: 25px;
 }
-/*#presen{
- 	padding-bottom: 2em;
- 	padding-top: 0px;
 
-}*/
 .presentation h2{
 	margin-top: 1em;
 	font-weight: bold;
@@ -428,7 +424,7 @@ background-color: #008cba;
 }
 }
 .progra{
-	background-color: rgba(239,239,239, 0.5); /*#EFEFEF; #BF3030 rouge */
+	background-color: rgba(239,239,239, 0.5); 
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -463,10 +459,7 @@ background-color: #008cba;
 .progra p{
 	font-size: 14px;
 }
-/*#imm{
-	height: 15em;
-}*/
-/* partie participants*/
+
  
 .partici{
 	margin-left: 15%;
@@ -484,9 +477,7 @@ background-color: #008cba;
 .partici h6	{
 	color: black;
 }
-#modi{
-	/*height: 15em;*/
-}
+
 /* partie partners and soponsors*/
 
 .sumit3{
@@ -551,7 +542,7 @@ margin-bottom: 2em;
 	margin-bottom: 2em;
 }
 #sem155{
-	height: 60px;
+	height: 9em;
 	margin-bottom: 2em;
 }
 #sem11{
